@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avid Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Book Store">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <div><a href="index.html" class="gridlink">
+            <span class="h1"><span class="color-primary">A</span>vid Reader</span></a>
+        </div>
+        
+        <div>
+            <input class="search-bar" type="text" placeholder="Enter"/>
+            <span class="searchbutton"><i class="fas fa-search"></i></span>
+        </div>
+        
+        <div class="top-right">
+            <button><i class="far fa-user" key="user-button"></i>Login/Signup</button>
+            <button><i class="fas fa-shopping-cart"></i>Cart</button>
+        </div>
+        
+    </div>
+</header>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <ul class="left-list">
+            <li><button>Blog</button></li>
+            <li><button>Kids Site</button></li>
+            <li><button>Events</button></li>
+            <li><button>Vouchers/Prizes</button></li>
+            <li><button>Collaborations</button></li>
+            <li><i class="fas fa-location-arrow"></i>192 Boundary St, West End QLD 4101</li>
+            <li><i class="fas fa-envelope"></i>books@avidreader.com.au</li>
+            <li><i class="fas fa-phone-alt"></i>(07) 3846 3422</li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<div class="checkout-main">
+    <div class="checkout-left">
+        <ul>
+            <li class="checkout-item-title">Items:</li>
+            <li class="checkout-item-row"><img src="9781529124262.png" alt="" class="checkout-pic"><span class="checkout-item-name">The Emporium of Imagination</span><span class="checkout-quantity"> qty: 1</span><span class="checkout-item-price">$28</span></li>
+            <li class="checkout-subtotals">Subtotal: $28.00</li>
+            <li class="checkout-totals">Shipping: $5.00</li>
+            <li class="checkout-totals">Grand Total: $33.00</li>
+            <li class="coupons">Coupon (optional) <span><input type="text" class="coupon-input"></span></li>
+        </ul>
+    </div>
+
+    <div class="checkout-right">
+        <ul>
+            <li class="checkout-item-title">Shipping</li>
+            <li class="checkout-postcode">Postcode <span class="postcode-input"><input type="text" class="postcode-input"></span><span class="calculated-postage">&#128504 Auspost Metro(3-15 days):&nbsp&nbsp&nbsp$5</span></li>
+            <li class="checkout-item-title">Payment <span class="paypal"><i class="fab fa-paypal"></i></span></li>
+            <li class="checkout-names">First Name<span class="postcode-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">Last Name<span class="postcode-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">Card Number<span class="postcode-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">CVV<span class="cvv-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">Expiry(mm/yy)<span class="postcode-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">Address<span class="postcode-input"><input type="text" class="payment-input"></span></li>
+            <li class="checkout-names">Billing Address<span class="same-as-postal">&#9745 Same as Postal Address</span></li>
+            <li><a href="index.html" class="checkout-button">Submit</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+</body>
