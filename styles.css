@@ -1,0 +1,603 @@
+body {
+    font-family: "Segoe UI";
+    color: #707070;
+    text-align: center;
+}
+
+div, label {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.searchbutton{
+    padding-top: 1.9em;
+}
+
+
+a{
+    text-decoration: none;
+    color: #707070;
+
+}
+
+i, li, label {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+nav, main {
+    background: #F4F0EC;
+    justify-content: center;
+       
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.left-list{
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    background: #E3E3E3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:  0;
+    overflow: hidden;
+}
+
+
+
+/*ul.horizontal li {
+    float: left;
+}*/
+
+
+.horizontal {
+    display: flex;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    font-family: "Segoe UI";
+}
+
+button.active {
+    background: #CD6E80;
+}
+
+.color-primary {
+    color: #CD6E80
+}
+
+.h1 {
+    padding: 0em;
+    font-size: 3em;
+}
+
+.h2 {
+    font-size: 35px;
+}
+
+.h3 {
+    font-size: 24px;
+}
+
+.h4 {
+    font-size: 17px;
+}
+
+.h5 {
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: -12px;
+}
+
+.gridlink{
+    text-decoration: none;
+    color: #707070;
+}
+
+/*
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}*/
+
+.spacer {
+    flex-grow: 1;
+}
+
+.banner {
+    max-height: 29.8em;
+    margin-left: 0em;
+}
+
+.search-bar {
+    width: 40em;
+}
+
+.search-bar {
+    height: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.top-right{
+    margin-left: 3em;
+}
+
+.search-color{
+    color: #707070;
+}
+
+
+
+
+
+
+
+
+
+.middle{
+    flex: 2 1 auto
+    justify-content: center;
+}
+
+.bigcat{
+    text-decoration: none;
+    border-bottum: 1px dotted gray;
+    text-align: left;
+    flex-grow: 0.1;
+    color: #707070;
+    
+}
+
+.middle a:hover {
+	background:;
+}
+
+.bigcat li ul li{
+    text-decoration: none;
+    color: #707070;
+}
+
+.bigcat ul{
+	display: None;
+    text-decoration: none;
+    color: #707070;
+}
+
+.sub-arrow{
+    text-decoration: none;
+}
+
+.bigcat li:hover ul{
+	display: block;
+}
+
+.middle .sub-arrow:after {
+	content: '\203A';
+	float: right;
+	margin-right:20px;
+}
+
+
+.gallerybar{
+    display:flex;
+    padding-top: 0.5em;
+}
+
+.rankingtag{
+    display: flex;
+    flex-grow: 0.7;
+}
+
+.flex-grid {
+    display: flex;
+    width: 100em;
+}
+
+.col {
+    padding-top: 0.8em;
+    text-align: center;
+    flex: 0.16
+}
+
+.book1{
+    max-height: 10em;
+}
+
+.book-title{
+    font-size: 1.5em;
+}
+
+.pricing {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.logintocomment{
+    color: #b1b1b1;
+}
+
+
+
+
+
+/*begin description.html"*/
+.description-main{
+    display:flex;
+    padding-top: 1em;
+}
+
+.description-main .description-left{
+    flex-grow: 0.3;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-bottom: none;
+    padding-bottom: none;
+    height: 50%;
+}
+
+.description-title{
+    font-size: 2em;
+}
+
+.description-text{
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+    padding-left: 1em;
+    
+}
+
+.description-star{
+    padding-left: 3em;
+}
+
+.seereviews{
+    padding-left: 3em;
+    color: #707070;
+}
+
+.description-pickup, .description-delivery{
+    padding-left: 3em;
+}
+
+.description-instock{
+    padding-top: 3em;
+}
+
+.description-ISBN{
+    padding-top: 3em;
+}
+
+.description-ISBN, .description-publication, .description-publisher{
+    font-size: 0.7em;
+}
+
+
+
+.description-buttons{
+    margin-top: 1em;
+    padding-left: 0.5em;
+    justify-content: left;
+}
+
+
+.description-addtocart{
+    font-size: 1.3em;
+    border: solid 1px black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:#CD6E80;
+    color: white;
+}
+
+.description-checkout{
+    margin-left: 1em;
+    font-size: 1.3em;
+    border: solid 1px black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: white;
+    color: #707070;
+}
+
+
+
+
+.book11{
+    width: 9em;
+    padding-top: 2em;
+}
+
+.description-flexbox{
+    display:flexbox
+}
+.description-description{
+    display: flex;
+    width: 70em;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    line-height: 2em;
+}
+
+.comments-flexbox{
+    flex-direction: column;
+}
+
+.description-heading, .comments-heading{
+    font-size: 2em;
+}
+
+/*cart page*/
+.qty-input{
+    height: 1em;
+    width: 1em;
+}
+
+.cart-pic{
+    max-height: 8em;
+}
+
+
+.cart-heading{
+    display:flexbox;
+    max-width: 31em;
+    font-size: 2em;
+    font-weight: normal;
+    align-items: flex-start;
+    
+}
+
+.cart-booktitle{
+    flex: 0.3
+    
+}
+
+.cart-pic, .cart-booktitle, .plus, .minus, .qty-input, .cart-price, .cart-itemno{
+    align-self: center;
+}
+
+.cart-booktitle, .cart-price, .cart-itemno{
+    font-size: 1.2em;
+}
+
+.cart-itemno{
+    flex:0.08;
+}
+
+.cart-buttons{
+    display: flexbox;
+    flex-direction: horizontal;
+    max-width: 200em;
+    margin-top: 5em;
+    padding-left: 0.5em;
+    justify-items: right;
+    
+}
+
+
+.cart-addmore{
+    font-size: 1.3em;
+    border: solid 1px black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:#CD6E80;
+    color: white;
+}
+
+.cart-checkout{
+    margin-left: 1em;
+    font-size: 1.3em;
+    border: solid 1px black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: white;
+    color: #707070;
+}
+
+.cart-recommendation{
+    margin-top: 10em;
+    font-size: 1.5em;    
+}
+
+
+/*Checkout*/
+.checkout-left .checkout-right{
+    flex-direction: column;
+    
+}
+
+.checkout-left ul li, .checkout-right ul li{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.checkout-item-title{
+    font-size: 2em;
+}
+
+.checkout-pic{
+    max-height: 5em;
+}
+
+.checkout-item-name, .checkout-quantity, .checkout-item-price{
+    padding-left: 1.5em;
+    padding-top: 1em;
+}
+
+.checkout-subtotals{
+    margin-top: 4em;
+}
+
+.payment-input, .same-as-postal, .calculated-postage{
+    margin-left: 2em;
+}
+
+.postcode-input{
+    width: 4em;
+    margin-left: 0.5em;
+}
+
+.checkout-button{
+    margin-top: 1em;
+    font-size: 1.3em;
+    border: solid 1px black;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:#CD6E80;
+    color: white;
+    margin-left: 4em;
+}
+
+.results-main{
+    display:flex;
+    flex-direction: horizontal;
+}
+
+.results-left{
+    display:flexbox;
+    max-width: 13em;
+    
+}
+
+.results-right{
+    display:flexbox;
+}
+
+.results-grid {
+    display: flex;
+    width: 50em;
+}
+
+.results-col {
+    padding-top: 0.8em;
+    text-align: center;
+    flex: 0.8;
+}
+
+.results-title-row{
+    display: flex;
+    justify-content:left;
+    margin-left: 20%;
+    font-size: 2em;
+
+}
+
+
+.results-subheading{
+    font-size: 1.5em;
+}
+
+.filter-barr{
+    width:3em;
+}
+
+
+@media (max-width: 700px) {
+    .left-list{
+        display: none;
+    }
+
+    .search-bar {
+        width: 20em;
+    }
+
+    .banner {
+        max-height: 11em;
+        margin-left: 0em;
+    }
+
+    .flex-grid {
+        display: block;
+    }
+
+    
+    .middle{
+        flex: 2 1 auto
+        justify-content: center;
+    }
+
+    .bigcat{
+        display: flex;
+        text-decoration: none;
+        border-bottum: 1px dotted gray;
+        text-align: left;
+        flex-grow: 0.1;
+        
+    }
+
+
+
+    .middle a:hover {
+        background:;
+    }
+
+    .bigcat ul{
+        display: None;
+    }
+
+
+
+    .bigcat li:hover ul{
+        display: block;
+    }
+
+    .middle .sub-arrow:after {
+        content: '\203A';
+        float: right;
+        margin-left:0.6em;
+        -webkit-transform: rotate(90deg);
+    }
+
+    .description-picture{
+        margin-left: 2em;
+    }
+
+    .results-grid {
+        display: block;
+    }
+
+}
+
+
